@@ -72,6 +72,7 @@ class MyTopo( Topo ):
         h14 = self.addHost('h14', ip='10.7.0.5')
         h15 = self.addHost('h15', ip='10.8.0.6')
         h16 = self.addHost('h16', ip='10.8.0.7')
+        h17 = self.addHost('h17', ip='10.9.0.8')
 
         info( '*** Add links\n')
         self.addLink(s1, s2)
